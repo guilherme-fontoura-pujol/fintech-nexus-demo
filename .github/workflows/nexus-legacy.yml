@@ -1,6 +1,5 @@
 name: CI Nexus Legacy (Git Flow)
 
-# O PRINT DEVE FOCAR AQUI: O gatilho (on) é o Pull Request
 on:
   pull_request:
     branches:
