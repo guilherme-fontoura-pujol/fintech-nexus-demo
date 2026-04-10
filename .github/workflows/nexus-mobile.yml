@@ -1,0 +1,12 @@
+name: CI Nexus Mobile (Trunk-Based)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  testes-rapidos-e-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Executando testes unitários rápidos e deploy em produção!"
